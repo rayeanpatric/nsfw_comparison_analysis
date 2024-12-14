@@ -33,7 +33,7 @@ Below is a summary of the performance of the evaluated models:
 
 ## Repository Structure
 The repository is organized as follows:
-- **[`Layer Diagram/`](Layer Diagram)**: Contains architecture diagrams for the various models used.
+- [**`Layer Diagram/`**](Layer Diagram): Contains architecture diagrams for the various models used.
 - **`Metrics/`**: Performance metrics of fine-tuned models.
 - **`Models/`**: Includes pre-trained and fine-tuned model files.
 - **`DL Models.ipynb`**: Notebook for training and evaluating deep learning models.
