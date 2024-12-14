@@ -33,7 +33,7 @@ Below is a summary of the performance of the evaluated models:
 
 ## Repository Structure
 The repository is organized as follows:
-- [**`Layer Diagram/`**](Layer Diagram): Contains architecture diagrams for the various models used.
+- **`Layer Diagram/`**: Contains architecture diagrams for the various models used.
 - **`Metrics/`**: Performance metrics of fine-tuned models.
 - **`Models/`**: Includes pre-trained and fine-tuned model files.
 - **`DL Models.ipynb`**: Notebook for training and evaluating deep learning models.
@@ -42,7 +42,7 @@ The repository is organized as follows:
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nsfw-content-moderation.git
+   git clone https://github.com/rayeanpatric/nsfw-comparison_analysis.git
    ```
 2. Install the required dependencies:
    ```bash
@@ -52,9 +52,13 @@ The repository is organized as follows:
    - Train and fine-tune models.
    - Preprocess datasets for consistent evaluation.
 
-## Research Paper
+<!--## Research Paper
 For detailed insights, please refer to the accompanying research paper:
-[NSFW Content Moderation: Benchmarking Deep Learning Models](link-to-your-paper)
+[NSFW Content Moderation: Benchmarking Deep Learning Models](link-to-your-paper)-->
+
+## Author
+[Rayean Patric](https://www.linkedin.com/in/rayeanpatric/)
+[Bharath Kumar](https://www.linkedin.com/in/bharath-kumar-k-75219721b)
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for suggestions.
