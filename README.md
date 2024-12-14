@@ -1,4 +1,4 @@
-# AI-Driven NSFW Content Moderation
+# Comparison Analysis of NSFW Content Moderation
 
 ## Overview
 This project presents an AI-driven framework for detecting and moderating NSFW (Not Safe For Work) content, particularly focused on video uploads. By leveraging state-of-the-art deep learning models, the system performs frame-by-frame analysis to identify NSFW content and offers proactive options for handling explicit material. This approach enhances real-time moderation, ensuring user safety and regulatory compliance on social media platforms.
