@@ -1,20 +1,17 @@
-# Comparison Analysis of NSFW Content Moderation
+# AI-Driven NSFW Content Moderation: Model Benchmarking
 
 ## Overview
-This project presents an AI-driven framework for detecting and moderating NSFW (Not Safe For Work) content, particularly focused on video uploads. By leveraging state-of-the-art deep learning models, the system performs frame-by-frame analysis to identify NSFW content and offers proactive options for handling explicit material. This approach enhances real-time moderation, ensuring user safety and regulatory compliance on social media platforms.
+This project focuses on the comprehensive analysis and benchmarking of eight deep learning models for NSFW (Not Safe For Work) content detection. Using a standardized dataset and consistent preprocessing, the models were trained and evaluated to determine their performance across key metrics, such as accuracy, precision, recall, F1-score, and ROC-AUC. The results offer valuable insights into the most effective architectures for NSFW classification, providing a foundation for future research and application development.
 
 ## Key Features
-- Real-time NSFW content detection during video uploads.
-- Efficient frame-by-frame analysis using **EfficientNet** and other deep learning models.
-- User-guided options for managing detected content:
-  - Labeling the video as 18+.
-  - Censoring explicit content using Gaussian blur.
-  - Canceling the upload.
-- Automatic cleanup of temporary files to optimize server resources.
-- Scalable and ethical AI-driven moderation for large platforms.
+- Comparative analysis of eight deep learning models for NSFW content detection:
+  - CNN, VGG16, ResNet, MobileNetV2, InceptionV3, AlexNet, NasNet, and LeNet.
+- Evaluation using consistent metrics across a shared dataset.
+- Comprehensive performance comparison for accuracy, efficiency, and scalability.
+- Data preprocessing pipeline for balanced and uniform input resolution.
 
 ## Performance Metrics
-The project involves a comparative analysis of various deep learning models. Below is a summary of their performance:
+Below is a summary of the performance of the evaluated models:
 
 | **Model**       | **Accuracy** | **Precision** | **Recall** | **F1-Score** | **ROC-AUC** |
 |------------------|-------------|---------------|------------|--------------|-------------|
@@ -28,21 +25,19 @@ The project involves a comparative analysis of various deep learning models. Bel
 | LeNet            | 0.7677      | 0.7231        | 0.8835     | 0.7953       | 0.8484      |
 
 ## Dataset
-- **Primary Sources**:
+- **Primary Source**:
   - [NudeNet Classifier Dataset v1](https://archive.org/details/NudeNet_classifier_dataset_v1): A diverse dataset including nude and safe categories.
-  - E. Bazarov's dataset (Over 1.3 million NSFW images across 159 categories).
 - Dataset Preprocessing:
-  - Resized to a uniform resolution of 255x255 pixels.
+  - Resized all images to a uniform resolution of 255x255 pixels.
   - Balanced training data with 200,000 images per class.
 
 ## Repository Structure
 The repository is organized as follows:
-- **`Layer Diagram/`**: Contains architecture diagrams for the various models used.
+- **[`Layer Diagram/`](Layer Diagram)**: Contains architecture diagrams for the various models used.
 - **`Metrics/`**: Performance metrics of fine-tuned models.
 - **`Models/`**: Includes pre-trained and fine-tuned model files.
 - **`DL Models.ipynb`**: Notebook for training and evaluating deep learning models.
 - **`Preprocessing Data.ipynb`**: Notebook for data preprocessing and augmentation.
-- **`.gitattributes` and `.gitignore`**: Configuration files for managing repository metadata.
 
 ## Usage
 1. Clone the repository:
@@ -53,7 +48,9 @@ The repository is organized as follows:
    ```bash
    pip install -r requirements.txt
    ```
-3. Use the provided notebooks (`DL Models.ipynb` and `Preprocessing Data.ipynb`) to train models or preprocess datasets.
+3. Use the provided notebooks (`DL Models.ipynb` and `Preprocessing Data.ipynb`) to:
+   - Train and fine-tune models.
+   - Preprocess datasets for consistent evaluation.
 
 ## Research Paper
 For detailed insights, please refer to the accompanying research paper:
