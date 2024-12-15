@@ -35,7 +35,7 @@ Below is a summary of the performance of the evaluated models:
 The repository is organized as follows:
 - **`Layer Diagram/`**: Contains architecture diagrams for the various models used.
 - **`Metrics/`**: Performance metrics of fine-tuned models.
-- **`Models/`**: Includes pre-trained and fine-tuned model files.
+- **`Models/`**: Includes pre-trained and fine-tuned model files info. Due to it's large size it exceeded the LFS limit.
 - **`DL Models.ipynb`**: Notebook for training and evaluating deep learning models.
 - **`Preprocessing Data.ipynb`**: Notebook for data preprocessing and augmentation.
 
