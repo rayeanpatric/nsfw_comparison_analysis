@@ -24,6 +24,8 @@ Below is a summary of the performance of the evaluated models:
 | NasNet           | 0.8281      | 0.7901        | 0.9035     | 0.8430       | 0.9200      |
 | LeNet            | 0.7677      | 0.7231        | 0.8835     | 0.7953       | 0.8484      |
 
+[Performance Metrics](performance_metrics) 
+
 ## Dataset
 - **Primary Source**:
   - [NudeNet Classifier Dataset v1](https://archive.org/details/NudeNet_classifier_dataset_v1): A diverse dataset including nude and safe categories.
